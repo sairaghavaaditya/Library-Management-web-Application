@@ -1,37 +1,35 @@
-#EpicReads: A Full-Stack Library Management System
+EpicReads: A Full-Stack Library Management System
 EpicReads is a comprehensive full-stack library management system designed to streamline library operations for both administrators and users. This project automates key processes, from managing book collections and user accounts to handling borrowing and returns, providing an intuitive and secure platform that enhances efficiency and improves the overall user experience.
 
-##Problem
-            Managing a library's collection, user accounts, and borrowing processes can be complex and inefficient, often leading to manual errors and a fragmented user experience. Without a centralized, automated system, it's difficult for administrators to keep track of inventory and for users to easily access library resources.
+Problem
+Managing a library's collection, user accounts, and borrowing processes can be complex and inefficient, often leading to manual errors and a fragmented user experience. Without a centralized, automated system, it's difficult for administrators to keep track of inventory and for users to easily access library resources.
+Solution & My Role
+I developed EpicReads to solve these challenges by building a robust, full-stack application. My work involved creating a secure and efficient system with role-based features for both users and administrators.
 
+Frontend Development: I designed and built the user interface with React to provide a seamless and intuitive experience for searching for books, checking out/returning items, and managing user profiles.
 
-##Solution & My Role
-            I developed EpicReads to solve these challenges by building a robust, full-stack application. My work involved creating a secure and efficient system with role-based features for both users and administrators.
+Secure Authentication: I integrated Okta to implement secure user authentication, ensuring that all user data and transactions are protected.
 
-            Frontend Development: I designed and built the user interface with React to provide a seamless and intuitive experience for searching for books, checking out/returning items, and managing user profiles.
+Backend & API Development: I designed and built a RESTful API backend using Spring Boot and MySQL to handle all data interactions efficiently and ensure data consistency. This included developing endpoints for book management, user accounts, and a reviews and ratings system.
 
-            Secure Authentication: I integrated Okta to implement secure user authentication, ensuring that all user data and transactions are protected.
+Key Features
+Role-Based Access Control: Separate dashboards and functionalities for administrators and users.
 
-            Backend & API Development: I designed and built a RESTful API backend using Spring Boot and MySQL to handle all data interactions efficiently and ensure data consistency. This included developing endpoints for book management, user accounts, and a reviews and ratings system.
+Comprehensive Book Management: Features for searching, checking out, returning, and tracking fines.
 
-##Key Features
-            Role-Based Access Control: Separate dashboards and functionalities for administrators and users.
+Secure User Authentication: Implemented with Okta for robust and reliable user security.
 
-            Comprehensive Book Management: Features for searching, checking out, returning, and tracking fines.
+User Reviews and Ratings: A built-in system allowing users to rate and review books.
 
-            Secure User Authentication: Implemented with Okta for robust and reliable user security.
+RESTful API Backend: A well-structured API ensuring consistent and reliable data flow.
 
-            User Reviews and Ratings: A built-in system allowing users to rate and review books.
+Tech Stack
+Frontend: React
 
-            RESTful API Backend: A well-structured API ensuring consistent and reliable data flow.
+Backend: Spring Boot
 
-##Tech Stack
-            Frontend: React
+Database: MySQL
 
-            Backend: Spring Boot
+Authentication: Okta
 
-            Database: MySQL
-
-            Authentication: Okta
-
-            API: REST APIs
+API: REST APIs
